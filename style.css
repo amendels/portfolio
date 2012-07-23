@@ -1,0 +1,219 @@
+html, button, input, 
+select, textarea {
+	font-family: 'Merriweather', serif;
+	color: #222;
+}
+body {
+	
+	overflow-y: scroll;
+	margin: 0;
+}
+div {
+	padding: 0;
+}
+.label h1 {
+	z-index: 9;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	font-size:4px;
+	color: black;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	background: #000;
+	z-index: 10;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	left: 10%;
+	font-family: 'PT Serif', serif;
+	text-align: center
+}
+#footer a {
+	color: #eee;
+	text-decoration: none;
+}
+.container p {
+	font-size: 24px;
+	color: #eee;
+	margin-top: 15px;
+}
+#home .hero {
+	min-width: 960px;	
+}
+#home .home-bg{
+	background: url('images/amsterdam.jpg')center center;
+	height: 472px;
+	width: 100%;
+	position: fixed;
+	z-index: -2;
+	top: 0;
+}
+/*#home .container1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	z-index: -2;
+}*/
+.container1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	z-index: -1;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+#home .head {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 35px 0 20px 0;
+	position: relative;
+}
+h2.container1 {
+	margin-top: 40px;
+	font-family: 'PT Serif', serif;
+}
+.container1::after, .container1::before {
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+}
+#home h1 {
+	margin-top: 379px;
+	color: #eee;
+}
+#home h3 {
+	float: left;
+	margin-top: -10px;
+	color: #eee;
+}
+h1 {
+	font-family: 'Merriweather-Bold', serif;
+	font-size: 100px;
+}
+#home h2 {
+	text-align: center;
+	color: black;
+	padding-top: 40px;
+}
+h2 {
+	font-family: 'PT Serif', serif;
+	font-size: 22px;
+}
+.main {
+	margin-top: 472px;
+	position: relative;
+	z-index: 2;
+	height: 900px;
+	background-color: #eee
+}
+.container2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+.grid1 {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #e5e4e4;
+	padding: 24px;
+	box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.grid1 h2 {
+	font-weight: 400;
+	margin: 0px 20px 10px 20px;
+}
+.brick {
+	border-radius: 4px;
+}
+.grid2 {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.grid2 h2 {
+	margin: 0px 20px 10px 20px;
+	font-size: 18px;
+}
+.holder {
+	margin-left: 10px;
+	overflow:hidden;
+	width:310px;
+	height:250px;
+	float:left;
+	position:relative;
+	background-color:#000;
+	margin-right:5px;
+}
+.holder .image {
+	position:absolute;
+	left:-100px;
+	width: 500;
+	height: 400;
+}
+.holder span {
+	background-color:#333;
+	font-size:27px;
+	font-family:'merriweather', serif;
+	color:#dedede;
+	font-weight:700;
+	/*padding:4px;*/
+	position:absolute;
+	top:120px;
+	left:4px;
+}
+.holder .text {
+	padding:20px;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:26px;
+	position:absolute;
+	top:180px;
+	font-size:16px;
+	color:#fff;
+	width:340px;
+}
+.clear {
+	clear:both;
+}
+.maingallery {
+	width:960px;
+	height:333px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.credit {
+	font-size:12px;
+	margin-top:25px;
+}
+#headerSlideContainer {
+    position: fixed;
+    top:-50px;
+    width: 100%;
+    background: black;
+    z-index: 10;
+}
+#headerSlideContent {
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    z-index: 10;
+    color: #eee;
+    text-decoration: none;
+}
+
+#headerSlideContent a {
+	color: #eee;
+	text-decoration: none;
+}
