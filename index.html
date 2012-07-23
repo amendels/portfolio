@@ -1,0 +1,178 @@
+<html>
+<head>
+<meta charset="utc-8">
+<title>Alex Mendelsohn</title>
+<script src="modernizr.js"></script>
+<link rel="stylesheet" href="style.css" media="all">
+<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+<!--<script type="text/javascript" src="gallery.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>-->
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Merriweather::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+	
+	
+	 $('.holder').hover(
+		function () {
+		$(this).removeClass('.notactive');	
+		$('.notactive').stop().animate({'width':'290px'},400); 
+        $(this).find('img').stop().animate({'top':'-165px'},400); 
+		$(this).stop().animate({'width':'380px'},400); 
+		$(this).find('span').css({'background-color':'#000'}); 
+		$(this).find('.text').fadeIn(300); 
+      },
+	    function () {
+		  	$('.notactive').stop().animate({'width':'320px'},400); 
+		  	$(this).addClass('.notactive');	
+			$(this).find('.text').hide();
+       	    $(this).find('img').stop().animate({'top':'0px'},500); 
+		    $(this).stop().animate({'width':'320px'},400);
+			$(this).find('span').css({'background-color':'#333', 'color':'#dedede'}); 
+		 
+      });
+	 
+	 
+	
+});
+
+
+</script>
+<!--<script type="text/javascript">
+var fadeStart=100 // 100px scroll or less will equiv to 1 opacity
+    ,fadeUntil=100 // 200px scroll or more will equiv to 0 opacity
+    ,fading = $('#header')
+;
+
+$(window).bind('scroll', function(){
+    var offset = $(document).scrollTop()
+        ,opacity=1
+    ;
+    if( offset<=fadeStart ){
+        opacity=0;
+    }else if( offset>=fadeUntil ){
+        opacity=1;
+    }
+    fading.css('opacity',opacity).html(opacity);
+});​</script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    var bar = $('#headerSlideContainer');
+    var top = bar.css('top');
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 80) {
+            bar.stop().animate({'top' : '0px'}, 500);
+        } else {
+            bar.stop().animate({'top' : top}, 500);
+        }
+    });
+});
+</script>
+</head>
+<body>
+	
+	<div id="home">
+	<div class="home-bg">
+		
+		<div class="container1">
+			<h1>Alex Mendelsohn</h1>
+			
+		</div>
+	</div>
+	</div>
+	<div id="headerSlideContainer">
+	    <div id="headerSlideContent">
+	        <p style="float: left; font-family: 'lobster 1.3'; font-size: 24px">alex mendelsohn</p><p style="float: left;margin-left: 27%;text-align: center;font-family: 'lobster 1.3';font-size: 24px">san francisco<p style="float:right; font-family: 'lobster 1.3';font-size: 24px"><a href="mailto:alex.mendels@gmail.com">alex.mendels@gmail.com</a></p></span>
+	    </div>
+	</div>
+<div class="main">
+	<div class="container1">
+		<img class="head" src="images/about.png" />
+			<p style="text-align: center">Skidmore College / BA Neuroscience / 2011</p>
+	</div>
+	<div class="container1">
+		<img class="head" src="images/work.png" />
+		<div class="grid2">
+		<table style="width: 960px; float: left;">
+		<colgroup>
+		<tbody>
+		<tr>
+		<td style="border-right: 1px solid #333;width: 70px;;">Health</td>
+			<td style="width: 250px;text-align: left; margin-left: 10px;"><strong>University of California, SF</strong><br>
+			Junior Specialist<br><br>
+			<strong>Wilton Emergency Inc.</strong><br>EMT</td>
+				<td style="width: 600px;float: left; text-align: left;">Performed novel research investigating the role of calcium channels in Autism and Schizophrenia. Collected and analyzed EEG recordings in an animal model of Autism.<br>
+				Implemented basic clinical and ambulatory techniques to assist paramedics before and during patient transport to hospitals.
+				</td>
+		</tr>
+		</tbody></table>
+		</div>
+		
+		<div class="grid2">
+		<table style="width: 960px; float: left;">
+		<colgroup>
+		<tbody>
+		<tr>
+		<td style="border-right: 1px solid #333;width: 70px;;">Tech</td>
+			<td style="width: 250px;text-align: left; margin-left: 10px;"><strong>Skidmore Unofficial</strong><br>
+			Co-Founder, Editor-In-Chief</td>
+				<td style="width: 600px;float: left; text-align: left;">Created and operated a student-run college news blog that functioned to connect the college and local community, and to provide a space to discuss campus life and events.
+				<br>
+				SU has been referenced by several national news sources including AOL News, The Saratogian, and the Albany Times Union.
+								</td>
+		</tr>
+		</tbody></table>
+		</div></div>
+		<br>
+		
+	<div class="container1">
+	<br>	
+		<img class="head" src="images/play.png" />
+		<br>
+		<div class="grid1">
+			<div class="brick">
+			<a  href="http://2seeds.org" target="_blank"><img src="images/2seeds.png" width="250" height="169" /></a>
+			<h2>2Seeds Network</h2>
+			<p>Content Mgmt, UX/UI</p>
+		</div>
+		</div>
+		<div class="grid1">
+			<a href="Slickstr"><img src="images/slickstr.png" width="250" height="169" /></a>
+			<h2>Slickstr</h2>
+			<p>Product Design, UX/UI</p>
+		</div>
+		<div class="grid1">
+			<a href="http://keck.ucsf.edu/~vsohal" target="_blank"><img src="images/sohal.png" width="250" height="169" /></a>
+			<h2>Sohal Lab</h2>
+			<p>Product Design, UX/UI</p>
+		</div></div>
+		
+<!--<div id="footer">
+	<div class="container">
+	<span>
+	<p style="float: left; font-family: 'lobster 1.3';">alex mendelsohn</p><p style="float: left;margin-left: 27%;text-align: center;font-family: 'lobster 1.3';">san francisco<p style="float:right; font-family: 'lobster 1.3';"><a href="mailto:alex.mendels@gmail.com">alex.mendels@gmail.com</a></p></span>
+	</div>
+</div>-->
+
+
+
+
+
+</body>
+</html>
+
